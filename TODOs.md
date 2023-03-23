@@ -8,4 +8,5 @@
 - [ ] Add topic for dashboards like [Grafana](https://grafana.com/)
 - [ ] Make MCQ exams
 - [ ] Add Github actions to run the make file
+- [ ] Create surveys
 
