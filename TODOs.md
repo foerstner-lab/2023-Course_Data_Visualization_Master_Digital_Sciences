@@ -9,4 +9,7 @@
 - [ ] Make MCQ exams
 - [ ] Add Github actions to run the make file
 - [ ] Create surveys
+- [ ] Describe/specify git repo every student has to generate
+      - Naming
+      - Structure (Paper, MCQ, Project)
 
