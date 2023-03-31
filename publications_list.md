@@ -1,8 +1,8 @@
 # Data visualization publictions list
-- [https://doi.org/10.1093/bib/bbab108](Venn diagrams in bioinformatics)
-- [https://doi.org/10.1093/bib/bbr069](Hive plots—rational approach to visualizing networks)
-- [https://doi.org/10.1101/gr.092759.109](Circos: An information aesthetic for comparative genomics)
-- [https://doi.org/10.1186/s12859-019-2902-6](Pairwise visual comparison of small RNA secondary structures with base pair probabilities) (similar to Circos)
+- [Venn diagrams in bioinformatics](https://doi.org/10.1093/bib/bbab108)
+- [Hive plots—rational approach to visualizing networks](https://doi.org/10.1093/bib/bbr069)
+- [Circos: An information aesthetic for comparative genomics](https://doi.org/10.1101/gr.092759.109)
+- [Pairwise visual comparison of small RNA secondary structures with base pair probabilities](https://doi.org/10.1186/s12859-019-2902-6) (similar to Circos)
 - []()
 - []()
 - []()
