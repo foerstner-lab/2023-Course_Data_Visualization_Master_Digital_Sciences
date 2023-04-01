@@ -2,7 +2,7 @@
 
 - [x] Put the dates
 - [ ] Arrange the topics of the previous course into the new one
-- [ ] Improve learning outcomes
+- [x] Improve learning outcomes
 - [ ] Add timing structure to the lecture
 - [ ] Add papers about visualizations
 - [ ] Add topic for dashboards like [Grafana](https://grafana.com/)
