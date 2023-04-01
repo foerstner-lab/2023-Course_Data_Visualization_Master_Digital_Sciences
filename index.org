@@ -1,7 +1,7 @@
-#+TITLE: Data Visualization (Summer Semester 2022)
+#+TITLE: Data Visualization (Summer Semester 2023)
 #+SUBTITLE: [[https://digital-sciences.de][Master Digital Sciences]] at [[https://www.th-koeln.de/][TH Köln]]
 #+AUTHOR: Prof. Dr. Konrad U. Förstner
-#+DATE: 2022-04-04
+#+DATE: 2023-04-03
 #+LICENCE: CC-BY
 #+LANGUAGE: en
 #+KEYWORDS: Visualization, TH Köln, Python
@@ -56,9 +56,8 @@ figures and are capable to visualize large data sets.
 
 ** Schedule
 
-- 2022-04-04
-   
-  - General Introdution
+- 2023-04-03
+ - General Introdution
   - Basics of Visualization
   - Tasks until next week:
     - Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]" of "Fundamentals of Data Visualization"
@@ -67,8 +66,8 @@ figures and are capable to visualize large data sets.
       - Alternative names
       - Aesthetics used
       - Potential pitfalls
-   
-- 2022-04-11:
+
+- 2023-04-10
   - Housekeeping
   - Question and repetition
   - Short introduction of one visualization type by the participants (~ 60 min)
@@ -88,17 +87,12 @@ figures and are capable to visualize large data sets.
       dedicated git repo.
     - Make yourself familiar with the term "chart junk" and find a
       example in current media (blog, news paper, magazin).
-
-      
-- 2022-04-18 - not taking place due to Easter (Ostern)
-- 2022-04-25
+- 2023-04-17
   - Presentation of the implemented visualization (~ 45 min)
   - Group discussion (15 min): What are strength and weaknesses if
     you encode information in colors. What has to be kept in mind.
-  
-- 2022-05-02 (canceled)
-- 2022-05-09 
 
+- 2023-04-24
   - Animations and Interactions
   - Discussion: Why interactions? What are advantage and
     disadvantages?
@@ -109,10 +103,9 @@ figures and are capable to visualize large data sets.
     - https://docs.bokeh.org/en/latest/docs/user_guide/data.html
   - Discussion of potential Project
   - Tasks until next week: take a data set and visualize it with bokeh
-
-- 2022-05-16
-  - Tiny paper discussion of the [[https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column][Points of View]] articles in /Nature Methods/. 
-- 2022-05-23
+- 2023-05-01
+ - Tiny paper discussion of the [[https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column][Points of View]] articles in /Nature Methods/. 
+- 2023-05-08
   - Developing the plans for the visualization projects
     - What do you want to achive? (Title of the project)
     - Which data set(s) do you want to use?
@@ -120,19 +113,24 @@ figures and are capable to visualize large data sets.
     - Generate a rought time plant with the working packages.
     - Set up a repository at GitHub with the following pattern:
       `DS\under{}Data\under{}Visualisation\under{}2022\under{}Firstname\under{}Lastname`
-  
-- 2022-05-24 (Bonus)
+- 2023-05-15
   - [[http://biovis.net/2022/meetup/2022/05/08/third-meetup.html][Talk by Martin Krzywinski]] as part of the Online meetup of the
     BioVis community ([[https://www.youtube.com/watch?v=_YGmfsKL8N8][recording]]).
-  
-- 2022-05-30:
+- 2023-05-22
   - Reflection on the talk by Martin Krzywinski
   - Working on the projects
-- 2022-06-06 - not taking place due to Pentecost/Pfingsten
-- 2022-06-13
+- 2023-05-29
   - Working on the projects
-- 2022-06-20
+- 2023-05-01
   - Project presentations
+- 2023-06-05
+
+- 2023-06-12
+
+- 2023-06-19
+
+- 2023-06-26 - Exam
+
 
 ** Group work
 
