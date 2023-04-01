@@ -478,6 +478,7 @@ groups of two.
   - [[http://circos.ca/][Circos]] (Python alternative [[https://github.com/ponnhide/pyCircos][pyCircos]])
   - [[https://gitlab.com/rgarcia-herrera/pyveplot][Pyveplot]]
   - [[https://networkx.org/][NetworkX]]
+  - [[https://shiny.rstudio.com/py/][Shiny]]
    
 * About me
 
