@@ -59,13 +59,13 @@ figures and are capable to visualize large data sets.
 - 2023-04-03
  - General Introdution
   - Basics of Visualization
-  - Tasks until next week:
-    - Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]" of "Fundamentals of Data Visualization"
-    - Install [[https://www.anaconda.com/products/distribution][Anaconda]] ([[https://librarycarpentry.org/lc-python-intro/setup.html][Further instructions]])
-    - Prepare to present you visualization type
-      - Alternative names
-      - Aesthetics used
-      - Potential pitfalls
+*** Tasks until next week:
+- Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]" of "Fundamentals of Data Visualization"
+- Install [[https://www.anaconda.com/products/distribution][Anaconda]] ([[https://librarycarpentry.org/lc-python-intro/setup.html][Further instructions]])
+- Prepare to present you visualization type
+  - Alternative names
+  - Aesthetics used
+  - Potential pitfalls
 
 - 2023-04-10
   - Housekeeping
@@ -79,7 +79,7 @@ figures and are capable to visualize large data sets.
     - titanic.csv (TODO: description of columns)
     - iris.csv (TODO: description of columns)
 
-  - Tasks until next week:
+*** Tasks until next week:
     - Please prepare a Jupyter Notebook with examples of the
       visualisation type that you discussed today. Ideally show
       different examples for the aestetics used. Please don't only
@@ -124,7 +124,7 @@ figures and are capable to visualize large data sets.
 - 2023-05-01
   - Project presentations
 - 2023-06-05
-
+  - Dashboards, eg. [[https://grafana.com/][Grafana]]
 - 2023-06-12
 
 - 2023-06-19
@@ -403,66 +403,27 @@ groups of two.
    
 ** Research articles
 
-   - [[http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html][Data visualization: A view of every Points of View column]] in
-     Nature methods
-
-   - Weissgerber TL, Winham SJ, Heinzen EP, Milin-Lazovic JS,
-     Garcia-Valencia O, Bukumiric Z, Savic MD, Garovic VD, Milic
-     NM. Reveal, Don't Conceal: Transforming Data Visualization to
-     Improve Transparency. Circulation. 2019 Oct
-     29;140(18):1506-1518. https://doi.org/10.1161/CIRCULATIONAHA.118.037777
-
-   - Weissgerber TL, Milic NM, Winham SJ, Garovic VD. Beyond bar and
-     line graphs: time for a new data presentation paradigm. PLoS
-     Biol. 2015 Apr 22;13(4):e1002128. 
-     https://doi.org/10.1371/journal.pbio.1002128
-   
-   - How Deceptive are Deceptive Visualizations?: An Empirical
-     Analysis of Common Distortion Techniques
-     https://doi.org/10.1145/2702123.2702608
-   
-   - Graphical Perception: Theory, Experimentation, and Application to
-     the Development of Graphical Methods -
-     https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478080
-
-   - Cleveland WS, McGill R. Graphical perception and graphical
-     methods for analyzing scientific data. Science. 1985 Aug
-     30;229(4716):828-33. https://doi.org/10.1126/science.229.4716.828
-       
-   - Automating the design of graphical presentations of relational
-     information - https://dl.acm.org/doi/10.1145/22949.22950
-
-   - Krzywinski M, Birol I, Jones SJ, Marra MA. Hive plots--rational
-     approach to visualizing networks. Brief Bioinform. 2012
-     Sep;13(5):627-44. https://doi.org/10.1093/bib/bbr069
-
-   - Krzywinski M, Schein J, Birol I, Connors J, Gascoyne R, Horsman
-     D, Jones SJ, Marra MA. Circos: an information aesthetic for
-     comparative genomics. Genome Res. 2009
-     Sep;19(9):1639-45. https://doi.org/10.1101/gr.092759.109
-
-   - "Diverging Color Maps for Scientific Visualization." Kenneth
-     Moreland. In Proceedings of the 5th International Symposium on
-     Visual Computing, December 2009. https://doi.org/10.1007/978-3-642-10520-3_9.
-
-   - C. Brewer, Guidelines for Selecting Colors for Diverging Schemes
-     on Maps, The Cartographic Journal, 18 Jul 2013,
-     https://doi.org/10.1179/caj.1996.33.2.79
-
-   - C. Ware, Color sequences for univariate maps: theory, experiments
-     and principles, in IEEE Computer Graphics and Applications,
-     vol. 8, no. 5, pp. 41-49, Sept. 1988,
-     https://doi.org/10.1109/38.7760
-
-   - P. Parsons and P. Shukla, "Data Visualization Practitioners’
-     Perspectives on Chartjunk," 2020 IEEE Visualization Conference
-     (VIS), 2020, pp. 211-215,
-     https://doi.org/10.1109/VIS47514.2020.00049.
-
-   - "How Not to Lie with Visualization", Bernice E. Rogowitz, Lloyd
-     A. Treinish and Steve Bryson, Computers in Physics 10, 268
-     (1996); https://doi.org/10.1063/1.4822401
-   
+   - [[http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html][Data visualization: A view of every Points of View column]]
+   - [[https://doi.org/10.1161/CIRCULATIONAHA.118.037777][Don't Conceal: Transforming Data Visualization to Improve Transparency. Circulation]]
+   - [[https://doi.org/10.1371/journal.pbio.1002128][Beyond bar and line graphs: time for a new data presentation paradigm]]
+   - [[https://doi.org/10.1145/2702123.2702608][How Deceptive are Deceptive Visualizations?: An Empirical Analysis of Common Distortion Techniques]]
+   - [[https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478080][Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods]]
+   - [[https://doi.org/10.1126/science.229.4716.828][Graphical perception and graphical methods for analyzing scientific data]]
+   - [[https://dl.acm.org/doi/10.1145/22949.22950][Automating the design of graphical presentations of relational information]]
+   - [[https://doi.org/10.1093/bib/bbr069][Hive plots--rational approach to visualizing networks]]
+   - [[https://doi.org/10.1007/978-3-642-10520-3_9][Diverging Color Maps for Scientific Visualization]]
+   - [[https://doi.org/10.1179/caj.1996.33.2.79][Guidelines for Selecting Colors for Diverging Schemes on Maps]]
+   - [[https://doi.org/10.1109/38.7760][Color sequences for univariate maps: theory, experiments and principles]]
+   - [[https://doi.org/10.1109/VIS47514.2020.00049][Data Visualization Practitioners’]]
+   - [[https://doi.org/10.1063/1.4822401][How Not to Lie with Visualization]]
+   - [[https://doi.org/10.1093/bib/bbab108][Venn diagrams in bioinformatics]]
+   - [[https://doi.org/10.1101/gr.092759.109][Circos: An information aesthetic for comparative genomics]]
+   - [[https://doi.org/10.1186/s12859-019-2902-6][Pairwise visual comparison of small RNA secondary structures with base pair probabilities]] - similar to Circos
+   - [[https://doi.org/10.1177/14738716221142005][Visual analytics for extracting decision rules from bagged and boosted decision trees]]
+   - [[https://doi.org/10.1007/s12650-022-00878-z][Efficient and stable circular cartograms for time-varying data by using improved elastic beam algorithm and hierarchical optimization]]
+   - [[https://doi.org/10.1007/s12650-022-00879-y][Progressive visual analysis of traffic data based on hierarchical topic refinement and detail analysis]]
+   - [[https://doi.org/10.1002/nur.22248][Using data visualization to detect patterns in whole-person health data]]
+   - [[https://doi.org/10.1093/bioinformatics/btac314][MD DaVis: interactive data visualization of protein molecular dynamics]]
 * Further links
 
   - [[https://www.csc2.ncsu.edu/faculty/healey/PP/index.html][Perception in Visualization]], Christopher G. Healey Department of
