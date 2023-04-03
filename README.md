@@ -1,4 +1,4 @@
-# Data Visualization (Summer Semester 2022)
+# Data Visualization (Summer Semester 2023)
 
 A course as part of the [Master Digital
 Sciences](https://digital-sciences.de) at
