@@ -59,7 +59,7 @@ figures and are capable to visualize large data sets.
 - 2023-04-03
  - General Introdution
   - Basics of Visualization
-	*** Tasks until next week:
+  - Tasks until next week:
 	- Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]" of "Fundamentals of Data Visualization"
 	- Install [[https://www.anaconda.com/products/distribution][Anaconda]] ([[https://librarycarpentry.org/lc-python-intro/setup.html][Further instructions]])
 	- Prepare to present you visualization type
@@ -79,7 +79,7 @@ figures and are capable to visualize large data sets.
     - titanic.csv (TODO: description of columns)
     - iris.csv (TODO: description of columns)
 
-	*** Tasks until next week:
+  - Tasks until next week:
     - Please prepare a Jupyter Notebook with examples of the
       visualisation type that you discussed today. Ideally show
       different examples for the aestetics used. Please don't only
