@@ -433,6 +433,15 @@ groups of two.
    - [[https://doi.org/10.1007/s12650-022-00879-y][Progressive visual analysis of traffic data based on hierarchical topic refinement and detail analysis]]
    - [[https://doi.org/10.1002/nur.22248][Using data visualization to detect patterns in whole-person health data]]
    - [[https://doi.org/10.1093/bioinformatics/btac314][MD DaVis: interactive data visualization of protein molecular dynamics]]
+   - [[https://bib.dbvis.de/uploadedFiles/parallelCoordinatesSoccer.pdf][Enhancing Parallel Coordinates: Statistical Visualizations for Analyzing Soccer Data]]
+   - [[https://doi.org/10.1038/Fncomms5022][Temporal disease trajectories condensed from population-wide registry data covering 6.2 million patients]]
+   - [[https://doi.org/10.1016/j.visinf.2022.10.003][PCP-Ed: Parallel coordinate plots for ensemble data]]
+   - [[https://doi.org/10.1186/s12859-022-04948-9][Visualizing the knowledge structure and evolution of bioinformatics]]
+   - [[https://doi.org/10.1038%2Fs41467-020-17900-3][A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data]]
+   - [[https://doi.org/10.1109%2FTVCG.2017.2744258][Instant Construction and Visualization of Crowded Biological Environments]]
+   - [[https://doi.org/10.1016/j.celrep.2021.108945][Single-cell transcriptomics reveals involution mimicry during the specification of the basal breast cancer subtype]]
+   - [[https://doi.org/10.1186/1471-2105-11-444][Genome3D: a viewer-model framework for integrating and visualizing multi-scale epigenomic information within a three-dimensional genome]]
+   - [[https://diglib.eg.org/bitstream/handle/10.2312/molva20201098/023-031.pdf?sequence=1&isAllowed=y][Mesoscope: A Web-based Tool for Mesoscale Data Integration and Curation]]
 * Further links
 
   - [[https://www.csc2.ncsu.edu/faculty/healey/PP/index.html][Perception in Visualization]], Christopher G. Healey Department of
