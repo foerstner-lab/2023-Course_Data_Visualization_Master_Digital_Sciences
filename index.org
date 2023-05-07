@@ -366,9 +366,7 @@ Disadvantages
 
 * Data visualization project
 
-The project should give you the chance to apply the learnt skills and
-reflect the outcomes. It can be can be conducted individually or in
-groups of two.
+The project should give you the chance to apply the learnt skills and reflect the outcomes. It can be can be conducted individually or in groups of two. The project should include visualizations of a data set of choice and conclusions that can be made of them. You are free in the choice of tools but ideally approaches presented in the lecture are applied.
   
 - *Code*
   - Git Repo with the code of the project - name schema:
@@ -386,7 +384,7 @@ groups of two.
 - *Report*
   - Deadline July 4th, 18:00
   - Submission via Illias
-  - Volume: 5,000 - 7,000 characters
+  - Volume: 7,000 - 10,000 characters (exluding references)
   - In group projects each group member has to write an individual
     report.
   - Should include
