@@ -68,7 +68,9 @@ figures and are capable to visualize large data sets.
    - Potential pitfalls
 
 - 2023-04-10
-  - Housekeeping
+  EASTER HOLIDAY
+- 2023-04-17
+- Housekeeping
   - Question and repetition
   - Short introduction of one visualization type by the participants (~ 60 min)
   - Introduction to [[https://seaborn.pydata.org/][seaborn]] ([[./code/Introduction_into_seaborn.ipynb][Jupyter Notebook]]) using the [[https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv][penguin data set]] (~ 45 min)
@@ -87,12 +89,14 @@ figures and are capable to visualize large data sets.
       dedicated git repo.
     - Make yourself familiar with the term "chart junk" and find a
       example in current media (blog, news paper, magazin).
-- 2023-04-17
+
+- 2023-04-24
+
   - Presentation of the implemented visualization (~ 45 min)
   - Group discussion (15 min): What are strength and weaknesses if
     you encode information in colors. What has to be kept in mind.
+- 2023-05-01
 
-- 2023-04-24
   - Animations and Interactions
   - Discussion: Why interactions? What are advantage and
     disadvantages?
@@ -103,9 +107,11 @@ figures and are capable to visualize large data sets.
     - https://docs.bokeh.org/en/latest/docs/user_guide/data.html
   - Discussion of potential Project
   - Tasks until next week: take a data set and visualize it with bokeh
-- 2023-05-01
- - Tiny paper discussion of the [[https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column][Points of View]] articles in /Nature Methods/. 
 - 2023-05-08
+
+ - Tiny paper discussion of the [[https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column][Points of View]] articles in /Nature Methods/. 
+- 2023-05-15
+
   - Developing the plans for the visualization projects
     - What do you want to achive? (Title of the project)
     - Which data set(s) do you want to use?
@@ -113,20 +119,23 @@ figures and are capable to visualize large data sets.
     - Generate a rought time plant with the working packages.
     - Set up a repository at GitHub with the following pattern:
       `DS\under{}Data\under{}Visualisation\under{}2022\under{}Firstname\under{}Lastname`
-- 2023-05-15
+- 2023-05-22
+
   - [[http://biovis.net/2022/meetup/2022/05/08/third-meetup.html][Talk by Martin Krzywinski]] as part of the Online meetup of the
     BioVis community ([[https://www.youtube.com/watch?v=_YGmfsKL8N8][recording]]).
-- 2023-05-22
-  - Reflection on the talk by Martin Krzywinski
-  - Working on the projects
+  
 - 2023-05-29
+- Reflection on the talk by Martin Krzywinski
   - Working on the projects
+  
 - 2023-05-01
-  - Project presentations
+- Working on the projects
+  
 - 2023-06-05
-  - Dashboards, eg. [[https://grafana.com/][Grafana]]
+- Project presentations
+  
 - 2023-06-12
-
+- Dashboards, eg. [[https://grafana.com/][Grafana]]
 - 2023-06-19
 
 - 2023-06-26 - Exam
@@ -357,9 +366,7 @@ Disadvantages
 
 * Data visualization project
 
-The project should give you the chance to apply the learnt skills and
-reflect the outcomes. It can be can be conducted individually or in
-groups of two.
+The project should give you the chance to apply the learnt skills and reflect the outcomes. It can be can be conducted individually or in groups of two. The project should include visualizations of a data set of choice and conclusions that can be made of them. You are free in the choice of tools but ideally approaches presented in the lecture are applied.
   
 - *Code*
   - Git Repo with the code of the project - name schema:
@@ -377,7 +384,7 @@ groups of two.
 - *Report*
   - Deadline July 4th, 18:00
   - Submission via Illias
-  - Volume: 5,000 - 7,000 characters
+  - Volume: 7,000 - 10,000 characters (exluding references)
   - In group projects each group member has to write an individual
     report.
   - Should include
@@ -424,6 +431,15 @@ groups of two.
    - [[https://doi.org/10.1007/s12650-022-00879-y][Progressive visual analysis of traffic data based on hierarchical topic refinement and detail analysis]]
    - [[https://doi.org/10.1002/nur.22248][Using data visualization to detect patterns in whole-person health data]]
    - [[https://doi.org/10.1093/bioinformatics/btac314][MD DaVis: interactive data visualization of protein molecular dynamics]]
+   - [[https://bib.dbvis.de/uploadedFiles/parallelCoordinatesSoccer.pdf][Enhancing Parallel Coordinates: Statistical Visualizations for Analyzing Soccer Data]]
+   - [[https://doi.org/10.1038/Fncomms5022][Temporal disease trajectories condensed from population-wide registry data covering 6.2 million patients]]
+   - [[https://doi.org/10.1016/j.visinf.2022.10.003][PCP-Ed: Parallel coordinate plots for ensemble data]]
+   - [[https://doi.org/10.1186/s12859-022-04948-9][Visualizing the knowledge structure and evolution of bioinformatics]]
+   - [[https://doi.org/10.1038%2Fs41467-020-17900-3][A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data]]
+   - [[https://doi.org/10.1109%2FTVCG.2017.2744258][Instant Construction and Visualization of Crowded Biological Environments]]
+   - [[https://doi.org/10.1016/j.celrep.2021.108945][Single-cell transcriptomics reveals involution mimicry during the specification of the basal breast cancer subtype]]
+   - [[https://doi.org/10.1186/1471-2105-11-444][Genome3D: a viewer-model framework for integrating and visualizing multi-scale epigenomic information within a three-dimensional genome]]
+   - [[https://diglib.eg.org/bitstream/handle/10.2312/molva20201098/023-031.pdf?sequence=1&isAllowed=y][Mesoscope: A Web-based Tool for Mesoscale Data Integration and Curation]]
 * Further links
 
   - [[https://www.csc2.ncsu.edu/faculty/healey/PP/index.html][Perception in Visualization]], Christopher G. Healey Department of
