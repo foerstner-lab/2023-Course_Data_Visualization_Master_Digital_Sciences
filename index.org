@@ -56,7 +56,7 @@ figures and are capable to visualize large data sets.
 
 ** Schedule
 
-- 2023-04-03
+** 2023-04-03
  - General Introdution
   - Basics of Visualization
  - Tasks until next week:
@@ -67,9 +67,9 @@ figures and are capable to visualize large data sets.
    - Aesthetics used
    - Potential pitfalls
 
-- 2023-04-10
+** 2023-04-10
   EASTER HOLIDAY
-- 2023-04-17
+** 2023-04-17
 - Housekeeping
   - Question and repetition
   - Short introduction of one visualization type by the participants (~ 60 min)
@@ -89,28 +89,205 @@ figures and are capable to visualize large data sets.
       dedicated git repo.
     - Make yourself familiar with the term "chart junk" and find a
       example in current media (blog, news paper, magazin).
+- Plot types:
+  - Swarm Plot:
+    - Alternative name: 
+            Bee Swarm Plot
+    - Aestestics used:
+        -  Color
+        -  Position
+    - Advantages:
+        Representation of categorial values
+    - Disadvantages: 
+        cannot display large sample sizes
+  
+  - Hive plot:
+    - Alternative name: hairball
+    - Aestestics used: 
+        - color, line width
+        - shape, size and labeling of the nodes
+    - Advantages:
+        - used to represent complex data sets
+        - show patterns and dependencies between different variables
+    - Disadvantages:
+        - hive plots with a great amount of data are hard to interpret
+  
+    
+  - Treemap:
+    - Alternative name:
+        - Nested rectangles
+    - Aestestics used:
+        - area
+        - order/sorting of boxes
+    - Advantages:
+        - multiple categories
+        - nested hierarchies
+        - can be combined w/ heatmaps
+    - Disadvantages:
+        - bad for small differences
+        - unintuitive aesthetic
+  
+  - 2D Density:
+    - Alternative name:
+        - Bivariate density
+    - Aestestics used: 
+        - color, density, position, shape
+    - Advantages:
+        - Good overwie over the distribution of the dataset
+        - Allows you to quickly see where the data is most concentrated
+    - Disadvantages:
+        - Outliners are not or poorly represented
+        - The density can look more significant than it actually is
+    
+  - Boxplot:
+    - Alternative name:
+        - box and whisker plot, box chart
+    - Aestestics used: 
+        - length, area, position, color
+    - Advantages:
+        -  Easy look into the distribution of the data
+        -  Box plots can be used to compare multiple data sets
+    - Disadvantages:
+      - no information about sample size
+  
+  
+  - Network Graph 
+    - Alternative name: 
+        - Link chart 
+        - node-link diagram
+        - network map
+        - “graph”
+    - Aestestics used: 
+        - Position
+        - depending on type: 
+            - linetype 
+            - linewidth
+            - color
+            - size
+            - shape
+    - Advantages: 
+        - Show connection between set of entities 
+    - Disadvantages: 
+        - If many entities - position of node not trival 
+      
+      
+  - Violin Plot:
+    - Alternative name: / 
+    - Aestestics used: 
+        - Shape
+        - Position
+        - Color
+        - Area
+    - Advantages:
+        - Combination of box plot and density plot
+            - statistical metrics
+            - information about density distribution
+    - Disadvantages:
+        - Easy to be fooled by the smoothness/simplification
+        - Easy to be fooled by length of the spurs behind maximum & minimum
+  
+  
+  
+  - Pie Chart:
+    - Alternative name:
+        - Circle Chart
+    - Aestestics used:
+        - Angle, Area, Color 
+    - Advantages:
+        - Intuitive, fast understanding of proportions
+      - compact representations
+      - good to show proportional differences
+  
+    - Disadvantages:
+        - Angular perception is very imprecise compared to other options
+      - unnecessary if proportions are not important
+      - Scalability with many Categories
+      - Hard to compare to other Pie charts
+  
+  
+  
+  - Dendrogram:
+    - Alternative name:
+      - Hierarchical cluster tree
+      - Confidence dendrogram
+      - Heatmap dendrogram
+      - Genealogical diagram
+      - Classification Dendrogram
+          - phylogenetic tree
+  
+    - Aestestics used: 
+        - Length (of the branches)
+        - area
+        - color
+        - orientation (horizontal, vertical, circular)
+    - Advantages:
+        - identifiying and getting a first idea about clusters and groups   within a hierarchical clustering
+        - allows all kinds of scales levels (dependent of the used distance or similarity measures)
+    - Disadvantages:
+        - Scalability
+        - Non-linearity
+        - Computationally expensive
+        - Subjectivity
+        - Overemphasis on similarities / Overinterpretation
+        - determination of the optimal amount of clusters
+        - Handling of missing data
+   
+  
+  
+  - Heatmap:
+    - Alternative name: 
+        - Grid heatmap
+        - Spatial heatmap
+    - Aesthetics used: 
+        - Colour for the data values
+        - Position on axes for the categories
+    - Advantages:
+        - Can see trends and clusters
+        - Can simplify large/complex datasets
+    - Disadvantages:
+        - Can't see details/exact data values
+        - Perceptions of colours can be problematic
+  
+  
+  
+  - strength
+    - good for highlighting 
+    - "clarity"
+    - add another dimension
+  
+    - good for categorical data
+    - adaptable to show the most important differences
+  - weaknesses / to keep in mind
+    - (could make it hard to understand if overlapping - mixing)
+    - might interfere with other color of plot (e.g. glidlines)
+    - no natural scare - definition required
+    - (cultural) associations with colors (e.g. red = "bad")
+    - disabilities / color blidness
+    - priniting not represented properly
+    - resolution of the color scale of the screen
+    - context dependent
+  
+  
+  Good/bad heatmap:
+  
+  
+  The three basic color appearance parameters
+  (according to Albert Henry Munsell)
+  
+  - Hue (red, orange, yellow, green, blue, violet)
+  - Lightness (black to white)
+  - Saturation (aka chroma or intensity; )
+  
+ - Colormaps
+  - Qualitative/categorical - for mapping categorical feature to colors
+  - Sequential - for quantitave, ordinal data
+  - Diverging - For numerical data that have a midpoint (e.g. range from -5 to 5)
 
-- 2023-04-24
 
-  - Presentation of the implemented visualization (~ 45 min)
-  - Group discussion (15 min): What are strength and weaknesses if
-    you encode information in colors. What has to be kept in mind.
-- 2023-05-01
 
-  - Animations and Interactions
-  - Discussion: Why interactions? What are advantage and
-    disadvantages?
-  - Excercise (bokeh)
-    - the penguin data set https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv
-      https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv
-    - https://docs.bokeh.org/en/latest/docs/user_guide/plotting.html
-    - https://docs.bokeh.org/en/latest/docs/user_guide/data.html
-  - Discussion of potential Project
-  - Tasks until next week: take a data set and visualize it with bokeh
-- 2023-05-08
 
  - Tiny paper discussion of the [[https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column][Points of View]] articles in /Nature Methods/. 
-- 2023-05-15
+** 2023-05-15
 
   - Developing the plans for the visualization projects
     - What do you want to achive? (Title of the project)
@@ -119,26 +296,72 @@ figures and are capable to visualize large data sets.
     - Generate a rought time plant with the working packages.
     - Set up a repository at GitHub with the following pattern:
       `DS\under{}Data\under{}Visualisation\under{}2022\under{}Firstname\under{}Lastname`
-- 2023-05-22
 
+*** Presentation of articles
+
+- Brief summary of the articles and their core messages.
+- Per person 5 min presentation + 2 min discussion
+
+https://cuckoo.team/viz
+
+Order of talks:
+
+- [Beyond bar and line graphs: time for a new data presentation paradigm](https://doi.org/10.1371/journal.pbio.1002128) - Marcel Gaab
+- [How Deceptive are Deceptive Visualizations?: An Empirical Analysis of Common Distortion Techniques](https://doi.org/10.1145/2702123.2702608) - Patrick Thomasius
+- [Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods](https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478080) - Isabella Wiedmann (missing)
+- [Diverging Color Maps for Scientific Visualization](https://doi.org/10.1007/978-3-642-10520-3_9) - Pia Bernards
+- [Useful junk? The effects of visual embellishment on comprehension and memorability of charts](https://doi.org/10.1145/1753326.1753716)  - Natasha Randall
+- [How Not to Lie with Visualization](https://doi.org/10.1063/1.4822401) - Saskia Brech (missing)
+- [Visual analytics for extracting decision rules from bagged and boosted decision trees](https://doi.org/10.1177/14738716221142005) Fabian Rosenthal
+- [Efficient and stable circular cartograms for time-varying data by using improved elastic beam algorithm and hierarchical optimization](https://doi.org/10.1007/s12650-022-00878-z) - Andreas Kruff
+- [Using data visualization to detect patterns in whole-person health data](https://doi.org/10.1002/nur.22248) - Finn Heydemann
+- [Visualizing the knowledge structure and evolution of bioinformatics](https://doi.org/10.1186/s12859-022-04948-9) - Tim Nordhoff
+- [Enhancing Parallel Coordinates: Statistical Visualizations for Analyzing Soccer Data](https://bib.dbvis.de/uploadedFiles/parallelCoordinatesSoccer.pdf) - Daniel Spiller
   - [[http://biovis.net/2022/meetup/2022/05/08/third-meetup.html][Talk by Martin Krzywinski]] as part of the Online meetup of the
     BioVis community ([[https://www.youtube.com/watch?v=_YGmfsKL8N8][recording]]).
-  
-- 2023-05-29
-- Reflection on the talk by Martin Krzywinski
-  - Working on the projects
-  
-- 2023-05-01
-- Working on the projects
-  
-- 2023-06-05
-- Project presentations
-  
-- 2023-06-12
-- Dashboards, eg. [[https://grafana.com/][Grafana]]
-- 2023-06-19
+** 2023-05-22
+*** Interactions
 
-- 2023-06-26 - Exam
+Advantages:
+- easy to respresent time / events
+- more engaging - follow viewer interest / selection possible
+- include more informtion in on plot
+- feels more transparent 
+- use live data 
+- easier to compare data sets
+- better accessibility 
+
+Disadvantages:
+- not possible to be printed - not compatible with our publishing system
+- tool itself needs explanation / documentation
+- more complex to create - more skills required
+- harder to guide viewer to selected aspects
+- easier to include chart junk / items of the plot can be seen an chart junk
+- viewer needs more time to capture the information
+- possibility of distraction of the viewer
+- possibility of false interpretation
+- technological dependencies
+- worse accessibility 
+- harder to cite (exact view)
+
+  
+** 2023-06-05
+### Short status update
+
+- 5 minutes presentation + 2 minutes Q&A per project
+- Date set used
+- Challenges faced
+
+### Introduction into Datashader
+- Link to the [dataset](https://raw.githubusercontent.com/holoviz/datashader/main/examples/data/.data_stubs/nyc_taxi.csv)
+
+  
+** 2023-06-12
+
+- Dashboards, eg. [[https://grafana.com/][Grafana]]
+** 2023-06-19
+ - Presentations
+** 2023-06-26 - Exam
 
 
 ** Group work
